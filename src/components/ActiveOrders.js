@@ -10,10 +10,10 @@ const ActiveOrders = () => {
         <h3 className="price">$100</h3>
       </div>
       <div className="order__content">
-        <Order title="Create somthing sample order" price="450" />
-        <Order title="Create somthing sample order" price="450" />
-        <Order title="Create somthing sample order" price="450" />
-        <Order title="Create somthing sample order" price="450" />
+        <Order title="Create something sample order" price="450" />
+        <Order title="Create something sample order" price="450" />
+        <Order title="Create something sample order" price="450" />
+        <Order title="Create something sample order" price="450" />
       </div>
     </div>
   );

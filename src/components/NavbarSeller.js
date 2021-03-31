@@ -3,6 +3,7 @@ import "../css/Navbar_Seller.css";
 import logo from "../images/logo.png";
 import { Link } from "react-router-dom";
 import { Avatar } from "@material-ui/core";
+import avatar1 from "../images/avatar1.png";
 
 const Navbar_Seller = () => {
   return (
@@ -25,7 +26,7 @@ const Navbar_Seller = () => {
           <h3>Buyer Requests</h3>
 
           <div className="avatar">
-            <Avatar />
+            <Avatar src={avatar1} />
           </div>
         </div>
       </div>

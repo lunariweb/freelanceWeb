@@ -26,7 +26,7 @@ const Sidebar = () => {
       {/* rates */}
       <div className="sidebar__rates">
         <div className="top_section">
-          <Avatar className={classes.large} />
+          <Avatar className={classes.large} src={avatar1} />
           <h3>Username</h3>
           <Star className="star" />
           <h4>5.0</h4>
