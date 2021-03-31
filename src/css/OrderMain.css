@@ -1,0 +1,64 @@
+.orderMain {
+  display: flex;
+  font-family: sans-serif;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: 0.3s;
+  border-bottom: 1px solid #c8c8c8;
+}
+
+.orderMain:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.orderMain > .left {
+  display: flex;
+}
+
+.orderMain > .left > p {
+  padding: 10px;
+  padding-left: 0px;
+  color: #636060;
+  width: 400px;
+  max-width: 400px !important;
+}
+
+.orderMain > .left > .orderMain__buyer {
+  display: flex;
+  margin-right: 140px;
+  max-width: 110px !important;
+  width: 110px;
+}
+
+.orderMain > .left > .orderMain__buyer > p {
+  padding: 10px;
+  font-weight: 600;
+  color: #636060;
+}
+
+.orderMain > .right {
+  display: flex;
+}
+
+.orderMain > .right > p {
+  margin-left: 80px;
+  padding: 10px;
+}
+
+.orderMain > .right > .status {
+  width: 90px;
+  max-width: 90px !important;
+  min-width: 90px !important;
+  text-align: right;
+  font-weight: bolder;
+}
+
+.orderMain > .right > .total {
+  font-weight: bold;
+  color: #636060;
+  width: 3px;
+
+  text-align: right;
+}

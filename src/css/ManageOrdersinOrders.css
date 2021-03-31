@@ -1,0 +1,46 @@
+.manageOrders_orders {
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+}
+
+.manageOrders_orders > .orderTable__header {
+  font-family: sans-serif;
+  border-bottom: 2px solid #c8c8c8;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+.manageOrders_orders > .orderTable__header > h3 {
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.manageOrders_orders > .orderTable__tbheader {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #c8c8c8;
+}
+
+.manageOrders_orders > .orderTable__tbheader > .left {
+  display: flex;
+  color: gray;
+}
+
+.manageOrders_orders > .orderTable__tbheader > .left > h4 {
+  margin-right: 200px;
+}
+
+.manageOrders_orders > .orderTable__tbheader > .right {
+  display: flex;
+}
+
+.manageOrders_orders > .orderTable__tbheader > .right > h4 {
+  margin-left: 100px;
+  color: gray;
+}

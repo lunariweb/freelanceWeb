@@ -1,0 +1,38 @@
+.sellerOrders {
+  background-color: #f7f7f7;
+  padding: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.sellerOrders > .sellerOrders__header {
+  font-family: sans-serif;
+  margin-bottom: 1px solid gray;
+}
+
+.sellerOrders > .sellerOrders__header > h1 {
+  font-weight: 500;
+  font-size: 40px;
+  color: rgb(88, 86, 86);
+}
+
+.sellerOrders > .sellerOrders__nav {
+  display: flex;
+  padding: 20px;
+  border-bottom: 1px solid #cac8c8;
+}
+
+.sellerOrders > .sellerOrders__nav > h4 {
+  font-weight: 500;
+  margin-right: 30px;
+  color: rgb(88, 86, 86);
+}
+
+.sellerOrders > .sellerOrders__nav > h4:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.sellerOrders > .sellerOrders__nav > .active {
+  color: black;
+}

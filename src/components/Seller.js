@@ -3,6 +3,7 @@ import Seller_Dashboard from "./Seller_Dashboard";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import NavbarSeller from "./NavbarSeller";
 import Seller_Messages from "./Seller_Messages";
+import Seller_Orders from "./Seller_Orders";
 
 const Seller = () => {
   return (
@@ -16,6 +17,7 @@ const Seller = () => {
           {/* seller messages */}
           <Route path="/seller/messages" component={Seller_Messages} />
           {/* orders */}
+          <Route path="/seller/orders" component={Seller_Orders} />
           {/* gigs */}
           {/* earnings */}
           {/* Buyer requests */}
