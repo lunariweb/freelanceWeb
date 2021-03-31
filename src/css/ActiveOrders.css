@@ -1,0 +1,23 @@
+.activeOrders {
+  background-color: white;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.12);
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  width: 1400px;
+  border-radius: 5px;
+}
+
+.activeOrders > .header {
+  padding: 20px;
+  display: flex;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.activeOrders > .header > h3 {
+  margin-right: 10px;
+}
+
+.activeOrders > .header > .price {
+  color: gray;
+}

@@ -80,6 +80,7 @@ const Sidebar = () => {
           />
         </div>
       </div>
+      {/* social nets */}
       <div className="sidebar__social">
         <div className="social__header">
           <h3>Link your social networks</h3>
@@ -90,7 +91,6 @@ const Sidebar = () => {
           <Twitter className="net" />
         </div>
       </div>
-      {/* social nets */}
     </div>
   );
 };

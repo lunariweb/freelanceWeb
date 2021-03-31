@@ -2,3 +2,13 @@
   background-color: #f7f7f7;
   height: 100vh;
 }
+
+.seller__dash > .main__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.seller__dash > .main__content > .rightSide {
+  margin-right: 50px;
+  margin-top: 40px;
+}

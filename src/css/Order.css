@@ -1,0 +1,37 @@
+.order {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  font-family: sans-serif;
+  transition: 0.3s;
+  border: 1px solid #e5e5e5;
+}
+
+.order:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.order > .order__details {
+  display: flex;
+}
+
+.order > .order__details > h3 {
+  margin-right: 10px;
+  font-weight: 500;
+}
+
+.order > .order__details > .price {
+  color: gray;
+  font-weight: bold;
+}
+
+.order > .order__actions > h3 {
+  text-decoration: none;
+  color: black;
+  transition: 0.3s;
+}
+
+.order > .order__actions > h3:hover {
+  cursor: pointer;
+  color: blue;
+}
