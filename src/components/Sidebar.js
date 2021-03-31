@@ -1,5 +1,5 @@
 import { Avatar, makeStyles } from "@material-ui/core";
-import { Star } from "@material-ui/icons";
+import { Facebook, GitHub, Star, Twitter } from "@material-ui/icons";
 import React from "react";
 import "../css/Sidebar.css";
 import LinearProgressWithLabel from "./LinearProgressWithLabel";
@@ -78,6 +78,16 @@ const Sidebar = () => {
             message="something new message was here change it blah"
             image={avatar2}
           />
+        </div>
+      </div>
+      <div className="sidebar__social">
+        <div className="social__header">
+          <h3>Link your social networks</h3>
+        </div>
+        <div className="social__nets">
+          <Facebook className="net" />
+          <GitHub className="net" />
+          <Twitter className="net" />
         </div>
       </div>
       {/* social nets */}

@@ -123,3 +123,45 @@
 .sidebar > .sidebar__messages > .chats {
   /* padding: 20px; */
 }
+
+.sidebar__social {
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+  margin-bottom: 15px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.35);
+}
+
+.sidebar__social > .social__header {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.sidebar__social > .social__header > h3 {
+  font-weight: 500;
+  font-family: sans-serif;
+}
+
+.sidebar__social > .social__nets {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.sidebar__social > .social__nets > .net {
+  font-size: 40px;
+  color: #626473;
+  transition: 0.3s;
+  padding: 10px;
+}
+
+.sidebar__social > .social__nets > .net:hover {
+  cursor: pointer;
+  color: black;
+}
