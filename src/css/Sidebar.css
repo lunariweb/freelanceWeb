@@ -9,6 +9,7 @@
   display: flex;
   flex-direction: column;
   margin: 40px;
+  margin-bottom: 15px;
   background-color: white;
   border-radius: 5px;
   padding: 10px;
@@ -25,13 +26,14 @@
 
 .sidebar > .sidebar__rates > .top_section > h3 {
   padding: 15px;
-
+  color: #626473;
   /* margin-left: -90px; */
 }
 
 .sidebar > .sidebar__rates > .top_section > h4 {
   padding-top: 17px;
   padding-bottom: 15px;
+  color: #626473;
 }
 
 .sidebar > .sidebar__rates > .top_section > .star {
@@ -56,6 +58,7 @@
   padding: 10px;
   margin: auto;
   width: 100%;
+  color: #626473;
 }
 
 .sidebar > .sidebar__rates > .mid_section > .mid > h3 {
@@ -63,6 +66,7 @@
   font-weight: 500;
   font-family: sans-serif;
   font-size: 17px;
+  color: #626473;
 }
 
 .sidebar > .sidebar__rates > .mid_section > .mid > .bar {
@@ -89,4 +93,33 @@
 
 .sidebar > .sidebar__rates > .last_section > .last__content > .text__right {
   font-weight: bold;
+}
+
+.sidebar > .sidebar__messages {
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.35);
+}
+
+.sidebar > .sidebar__messages > .header {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  justify-content: space-between;
+  display: flex;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.sidebar > .sidebar__messages > .header > h4 {
+  font-weight: 500;
+  font-family: sans-serif;
+}
+
+.sidebar > .sidebar__messages > .chats {
+  /* padding: 20px; */
 }

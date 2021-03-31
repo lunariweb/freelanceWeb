@@ -3,6 +3,9 @@ import { Star } from "@material-ui/icons";
 import React from "react";
 import "../css/Sidebar.css";
 import LinearProgressWithLabel from "./LinearProgressWithLabel";
+import avatar1 from "../images/avatar1.png";
+import avatar2 from "../images/avatar2.png";
+import SidebarChat from "./SidebarChat";
 
 const useStyles = makeStyles((theme) => ({
   large: {
@@ -59,6 +62,24 @@ const Sidebar = () => {
         </div>
       </div>
       {/* messages */}
+      <div className="sidebar__messages">
+        <div className="header">
+          <h4>Inbox</h4>
+          <h4 className="view__button">View All</h4>
+        </div>
+        <div className="chats">
+          <SidebarChat
+            username="nimeshanirmal"
+            message="new message from the buyer pls help him"
+            image={avatar1}
+          />
+          <SidebarChat
+            username="creedhavoc"
+            message="something new message was here change it blah"
+            image={avatar2}
+          />
+        </div>
+      </div>
       {/* social nets */}
     </div>
   );

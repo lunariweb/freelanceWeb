@@ -1,0 +1,30 @@
+.sidebarChat {
+  display: flex;
+  border: 1px solid #e5e5e5;
+  background-color: #fff;
+  padding: 15px;
+}
+
+.sidebarChat > .chat__content {
+  margin-left: 15px;
+  margin-top: -5px;
+  width: 100%;
+}
+
+.sidebarChat > .chat__content > h4 {
+  color: #707174;
+  margin-top: 3px;
+}
+
+.sidebarChat > .chat__content > p {
+  max-width: 300px;
+  width: 250px;
+  overflow: hidden !important;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.sidebarChat:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+}
