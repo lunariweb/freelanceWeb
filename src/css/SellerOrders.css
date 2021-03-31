@@ -3,6 +3,7 @@
   padding: 50px;
   padding-left: 100px;
   padding-right: 100px;
+  height: 100vh;
 }
 
 .sellerOrders > .sellerOrders__header {
@@ -26,6 +27,12 @@
   font-weight: 500;
   margin-right: 30px;
   color: rgb(88, 86, 86);
+}
+
+.sellerOrders > .sellerOrders__nav > .link {
+  margin-right: 30px;
+  color: rgb(88, 86, 86);
+  text-decoration: none;
 }
 
 .sellerOrders > .sellerOrders__nav > h4:hover {

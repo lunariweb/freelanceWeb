@@ -4,7 +4,7 @@ import OrderMain from "./OrderMain";
 import avatar1 from "../images/avatar1.png";
 import avatar2 from "../images/avatar2.png";
 
-const ManageOrdersinOrders = ({ table_title }) => {
+const PriorityOrders = ({ table_title }) => {
   return (
     <div className="manageOrders_orders">
       {/* header */}
@@ -25,20 +25,20 @@ const ManageOrdersinOrders = ({ table_title }) => {
       {/* orders */}
       <OrderMain
         avatarimg={avatar1}
-        buyer_username="creedhavoc"
+        buyer_username="creedhavoccccc"
         gigName="this is your gig name that the order is placed"
         price="450"
-        status="DELIVERED"
+        status="PRIORITY"
       />
       <OrderMain
         avatarimg={avatar2}
         buyer_username="creedhavoc"
         gigName="this is your gig name that the order is placed"
         price="350"
-        status="DELIVERED"
+        status="PRIORITY"
       />
     </div>
   );
 };
 
-export default ManageOrdersinOrders;
+export default PriorityOrders;
