@@ -1,0 +1,53 @@
+.gigData {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Open Sans", sans-serif;
+  padding: 10px;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.gigData:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+}
+
+.gigData > .right {
+  display: flex;
+}
+
+.gigData > .right > h3 {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.gigData > .right > .clicks {
+  width: 50px;
+  max-width: 50px !important;
+}
+
+.gigData > .right > .orders {
+  width: 50px;
+  max-width: 50px !important;
+  margin-left: 85px;
+}
+
+.gigData > .right > .cancels {
+  width: 50px;
+  max-width: 50px !important;
+  margin-left: 135px;
+}
+
+.gigData > .left {
+  width: 400px;
+  max-width: 400px !important;
+}
+
+.gigData > .left > h3 {
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+}

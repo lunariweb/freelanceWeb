@@ -1,12 +1,13 @@
 import React from "react";
 import "../css/GigsTable.css";
+import GigData from "./GigData";
 
-const GigsTable = () => {
+const GigsTable_Paused = ({ status }) => {
   return (
     <div className="gigsTable">
       {/* status bar */}
       <div className="statusBar">
-        <h3>ACTIVE GIGS</h3>
+        <h3>{status}</h3>
       </div>
       <div className="tbHeader">
         <p>GIG</p>
@@ -16,8 +17,20 @@ const GigsTable = () => {
       </div>
       {/* tb header */}
       {/* gig */}
+      <GigData
+        gig_title="I will creata a custom logo animation"
+        clicks="4"
+        orders="8"
+        cancels="0"
+      />
+      <GigData
+        gig_title="I will creata a custom logo animation"
+        clicks="4"
+        orders="8"
+        cancels="10"
+      />
     </div>
   );
 };
 
-export default GigsTable;
+export default GigsTable_Paused;

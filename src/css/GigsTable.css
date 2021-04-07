@@ -9,11 +9,18 @@
 
 .gigsTable > .statusBar {
   font-weight: 400;
+  padding: 10px;
 }
 
 .gigsTable > .tbHeader {
   display: flex;
   justify-content: space-between;
+  font-size: 14px;
+  font-weight: 600;
+  color: #4d4b4b;
+  padding: 5px;
+  border-bottom: 1px solid #e7e7e7;
+  border-top: 1px solid #e7e7e7;
 }
 
 .gigsTable > .tbHeader > .clicks {

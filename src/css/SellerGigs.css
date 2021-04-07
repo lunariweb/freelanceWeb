@@ -23,6 +23,7 @@
 .sellerGigs > .sellerGigs__content > .sellerGigs__navbar {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 .sellerGigs > .sellerGigs__content > .sellerGigs__navbar > .left {
@@ -38,7 +39,17 @@
   transition: 0.3s;
 }
 
-.sellerGigs > .sellerGigs__content > .sellerGigs__navbar > .left > h3:hover {
+.sellerGigs > .sellerGigs__content > .sellerGigs__navbar > .left > .link {
+  margin-right: 25px;
+  font-size: 15px;
+  font-weight: 300;
+  color: black;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  transition: 0.3s;
+}
+
+.sellerGigs > .sellerGigs__content > .sellerGigs__navbar > .left > .link:hover {
   cursor: pointer;
   color: #2e86c1;
 }
