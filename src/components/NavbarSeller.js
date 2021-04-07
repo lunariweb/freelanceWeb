@@ -23,7 +23,9 @@ const Navbar_Seller = () => {
           <Link className="navbar__buttons__h3" to="/seller/orders">
             <h3>Orders</h3>
           </Link>
-          <h3>Gigs</h3>
+          <Link to="/seller/gigs" className="navbar__buttons__h3">
+            <h3>Gigs</h3>
+          </Link>
           <h3>Earnings</h3>
           <h3>Buyer Requests</h3>
 

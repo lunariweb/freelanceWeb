@@ -1,0 +1,29 @@
+.gigsTable {
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Open Sans", sans-serif;
+}
+
+.gigsTable > .statusBar {
+  font-weight: 400;
+}
+
+.gigsTable > .tbHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gigsTable > .tbHeader > .clicks {
+  margin-left: 1000px;
+}
+
+.gigsTable > .tbHeader > .cancels {
+  margin-left: -100px;
+}
+
+.gigsTable > .tbHeader > .orders {
+  margin-left: -100px;
+}

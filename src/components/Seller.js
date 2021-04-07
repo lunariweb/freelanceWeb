@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import NavbarSeller from "./NavbarSeller";
 import Seller_Messages from "./Seller_Messages";
 import Seller_Orders from "./Seller_Orders";
+import Seller_Gigs from "./Seller_Gigs";
 
 const Seller = () => {
   return (
@@ -19,6 +20,7 @@ const Seller = () => {
           {/* orders */}
           <Route path="/seller/orders" component={Seller_Orders} />
           {/* gigs */}
+          <Route path="/seller/gigs" component={Seller_Gigs} />
           {/* earnings */}
           {/* Buyer requests */}
         </Switch>

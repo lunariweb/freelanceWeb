@@ -40,31 +40,33 @@ const Seller_Orders = () => {
         </div>
         {/* orders area */}
 
-        <Route
-          path="/seller/orders"
-          exact
-          render={() => <PriorityOrders table_title="PRIORITY ORDERS" />}
-        />
-        <Route
-          path="/seller/orders/new"
-          render={() => <NewOrders table_title="NEW ORDERS" />}
-        />
-        <Route
-          path="/seller/orders/active"
-          render={() => <ActiveOrders2 table_title="ACTIVE ORDERS" />}
-        />
-        <Route
-          path="/seller/orders/delivered"
-          render={() => <DeliveredOrders table_title="DELIVERED ORDERS" />}
-        />
-        <Route
-          path="/seller/orders/completed"
-          render={() => <CompletedOrders table_title="COMPLETED ORDERS" />}
-        />
-        <Route
-          path="/seller/orders/cancelled"
-          render={() => <CancelledOrders table_title="CANCELLED ORDERS" />}
-        />
+        <Switch>
+          <Route
+            path="/seller/orders"
+            exact
+            render={() => <PriorityOrders table_title="PRIORITY ORDERS" />}
+          />
+          <Route
+            path="/seller/orders/new"
+            render={() => <NewOrders table_title="NEW ORDERS" />}
+          />
+          <Route
+            path="/seller/orders/active"
+            render={() => <ActiveOrders2 table_title="ACTIVE ORDERS" />}
+          />
+          <Route
+            path="/seller/orders/delivered"
+            render={() => <DeliveredOrders table_title="DELIVERED ORDERS" />}
+          />
+          <Route
+            path="/seller/orders/completed"
+            render={() => <CompletedOrders table_title="COMPLETED ORDERS" />}
+          />
+          <Route
+            path="/seller/orders/cancelled"
+            render={() => <CancelledOrders table_title="CANCELLED ORDERS" />}
+          />
+        </Switch>
       </div>
     </Router>
   );

@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+.defaultButton {
+  height: 35px;
+  min-width: 140px;
+  max-width: 200px;
+  border-radius: 4px;
+  background-color: #2e86c1;
+  transition: 0.4s;
+}
+
+.defaultButton > h4 {
+  text-align: center;
+  color: white;
+  padding: 7px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.defaultButton:hover {
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}

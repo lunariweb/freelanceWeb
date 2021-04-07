@@ -1,0 +1,44 @@
+.sellerGigs {
+  background-color: #f7f7f7;
+  padding: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.sellerGigs > .sellerGigs_header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sellerGigs > .sellerGigs_header > h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.sellerGigs > .sellerGigs__content {
+  padding: 50px;
+}
+
+.sellerGigs > .sellerGigs__content > .sellerGigs__navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sellerGigs > .sellerGigs__content > .sellerGigs__navbar > .left {
+  display: flex;
+  font-family: "Open Sans", sans-serif;
+}
+
+.sellerGigs > .sellerGigs__content > .sellerGigs__navbar > .left > h3 {
+  margin-right: 25px;
+  font-size: 17px;
+  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+  transition: 0.3s;
+}
+
+.sellerGigs > .sellerGigs__content > .sellerGigs__navbar > .left > h3:hover {
+  cursor: pointer;
+  color: #2e86c1;
+}
